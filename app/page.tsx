@@ -6,7 +6,7 @@ import BookstoreCard from '@/components/BookstoreCard';
 import SearchBar from '@/components/SearchBar';
 import CategoryButtons from '@/components/CategoryButtons';
 import bookstoresData from '@/data/bookstores.json';
-
+import CrossLinkFooter from '@/components/CrossLinkFooter';
 export default function Home() {
   const [activeCategory, setActiveCategory] = useState('all');
 
@@ -110,6 +110,7 @@ export default function Home() {
       </main>
 
       <SearchBar />
+      <CrossLinkFooter />
     </div>
   );
 }
