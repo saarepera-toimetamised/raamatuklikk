@@ -1,0 +1,161 @@
+{
+  "literary-magazines": [
+    {
+      "id": "granta",
+      "name": "Granta",
+      "url": "https://www.granta.com",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "language": "english",
+      "description": "Kirjanduslik ajakiri. Proosakatkendid, reportaažid, luule."
+    },
+    {
+      "id": "paris-review",
+      "name": "The Paris Review",
+      "url": "https://www.theparisreview.org",
+      "country": "USA",
+      "flag": "🇺🇸",
+      "language": "english",
+      "description": "Tunnustatud kirjandusajakiri. Intervjuud, proosa, luule."
+    },
+    {
+      "id": "looming",
+      "name": "Looming",
+      "url": "https://www.looming.ee",
+      "country": "Eesti",
+      "flag": "🇪🇪",
+      "language": "eesti",
+      "description": "Eesti vanim kirjandusajakiri. 1923 aastast."
+    },
+    {
+      "id": "vikerkaar",
+      "name": "Vikerkaar",
+      "url": "https://www.vikerkaar.ee",
+      "country": "Eesti",
+      "flag": "🇪🇪",
+      "language": "eesti",
+      "description": "Eesti kultuuriajakiri. Kirjandus, kunst, kriitika."
+    },
+    {
+      "id": "sirp",
+      "name": "Sirp",
+      "url": "https://www.sirp.ee",
+      "country": "Eesti",
+      "flag": "🇪🇪",
+      "language": "eesti",
+      "description": "Eesti kultuurileht. Iganädalane."
+    },
+    {
+      "id": "n+1",
+      "name": "n+1",
+      "url": "https://www.nplusonemag.com",
+      "country": "USA",
+      "flag": "🇺🇸",
+      "language": "english",
+      "description": "Intellektuaalne ajakiri. Kirjandus, kunst, poliitika."
+    }
+  ],
+  "book-news": [
+    {
+      "id": "lit-hub",
+      "name": "Literary Hub",
+      "url": "https://lithub.com",
+      "country": "USA",
+      "flag": "🇺🇸",
+      "language": "english",
+      "description": "Kirjandusuudised, esseed, arvustused."
+    },
+    {
+      "id": "guardian-books",
+      "name": "The Guardian Books",
+      "url": "https://www.theguardian.com/books",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "language": "english",
+      "description": "Raamatuarvustused ja kirjandusuudised."
+    },
+    {
+      "id": "lrb",
+      "name": "London Review of Books",
+      "url": "https://www.lrb.co.uk",
+      "country": "UK",
+      "flag": "🇬🇧",
+      "language": "english",
+      "description": "Pikad esseed ja raamatuarvustused."
+    },
+    {
+      "id": "postimees-kultuur",
+      "name": "Postimees Kultuur",
+      "url": "https://kultuur.postimees.ee",
+      "country": "Eesti",
+      "flag": "🇪🇪",
+      "language": "eesti",
+      "description": "Eesti kultuuriuudised ja arvustused."
+    },
+    {
+      "id": "err-kultuur",
+      "name": "ERR Kultuur",
+      "url": "https://kultuur.err.ee",
+      "country": "Eesti",
+      "flag": "🇪🇪",
+      "language": "eesti",
+      "description": "Eesti Rahvusringhäälingu kultuuriuudised."
+    }
+  ],
+  "publishers": [
+    {
+      "id": "penguin",
+      "name": "Penguin Random House",
+      "url": "https://www.penguinrandomhouse.com",
+      "country": "USA/UK",
+      "flag": "🇺🇸",
+      "language": "english",
+      "description": "Maailma suurim kirjastus."
+    },
+    {
+      "id": "varrak",
+      "name": "Varrak",
+      "url": "https://www.varrak.ee",
+      "country": "Eesti",
+      "flag": "🇪🇪",
+      "language": "eesti",
+      "description": "Eesti suurim kirjastus."
+    },
+    {
+      "id": "verb",
+      "name": "VERB",
+      "url": "https://www.verb.ee",
+      "country": "Eesti",
+      "flag": "🇪🇪",
+      "language": "eesti",
+      "description": "Kvaliteetkirjanduse kirjastus."
+    },
+    {
+      "id": "fsg",
+      "name": "Farrar, Straus and Giroux",
+      "url": "https://us.macmillan.com/fsg",
+      "country": "USA",
+      "flag": "🇺🇸",
+      "language": "english",
+      "description": "Prestiižne raamatukirjastus."
+    },
+    {
+      "id": "gallimard",
+      "name": "Gallimard",
+      "url": "https://www.gallimard.fr",
+      "country": "Prantsusmaa",
+      "flag": "🇫🇷",
+      "language": "français",
+      "description": "Prantsuse prestiižne kirjastus."
+    },
+    {
+      "id": "suhrkamp",
+      "name": "Suhrkamp",
+      "url": "https://www.suhrkamp.de",
+      "country": "Saksamaa",
+      "flag": "🇩🇪",
+      "language": "deutsch",
+      "description": "Saksa intellektuaalne kirjastus."
+    }
+  ]
+}
