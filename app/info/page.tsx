@@ -3,6 +3,13 @@ import SearchBar from '@/components/SearchBar';
 import infoSourcesData from '@/data/info-sources.json';
 import Link from 'next/link';
 
+export const metadata = {
+  title: 'Kriitika & Kirjastused - Raamatuklikk',
+  description: 'Kirjandusajakirjad, raamatuuudised ja kirjastused.',
+  alternates: {
+    canonical: 'https://raamatuklikk.ee/info',
+  },
+};
 export default function InfoPage() {
   return (
     <div>

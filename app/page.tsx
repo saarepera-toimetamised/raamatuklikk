@@ -7,6 +7,13 @@ import SearchBar from '@/components/SearchBar';
 import CategoryButtons from '@/components/CategoryButtons';
 import bookstoresData from '@/data/bookstores.json';
 import CrossLinkFooter from '@/components/CrossLinkFooter';
+
+export const metadata = {
+  alternates: {
+    canonical: 'https://raamatuklikk.ee',
+  },
+};
+
 export default function Home() {
   const [activeCategory, setActiveCategory] = useState('all');
 

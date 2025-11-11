@@ -1,6 +1,14 @@
 import SearchBar from '@/components/SearchBar';
 import Link from 'next/link';
 
+export const metadata = {
+  title: 'Oluline Teada - Raamatuklikk',
+  description: 'Juhendid ja nipid raamatupoodide sirvimiseks.',
+  alternates: {
+    canonical: 'https://raamatuklikk.ee/kasulik',
+  },
+};
+
 export default function KasulikPage() {
   return (
     <div>
