@@ -52,11 +52,11 @@ export default function Home() {
             </h1>
           </div>
 
-          <div style={{ fontSize: '20px', marginBottom: '12px' }}>
+          <div style={{ fontSize: '17px', marginBottom: '12px', fontWeight: 700 }}>
             Valitud raamatupoed üle maailma
           </div>
 
-          <div style={{ fontSize: '15px', lineHeight: 1.6, paddingBottom: '15px' }}>
+          <div style={{ fontSize: '13px', lineHeight: 1.6, paddingBottom: '15px' }}>
             Leia parimad raamatud igas riigis ja keeles. 
             Fookus: kohalik kirjandus ja kultuuriline eripära. Ka väiksemates keeltes 
              → klõpsa ja ava pood → brauseri tõlge. Kui tõrgub, siis tekita. See on lihtne ja juhistes kirjas.

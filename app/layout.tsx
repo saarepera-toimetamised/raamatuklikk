@@ -16,9 +16,9 @@ export const metadata: Metadata = {
     siteName: 'Raamatuklikk',
     locale: 'et_EE',
     type: 'website',
-      images: [                                    // <-- LISA SEE
+    images: [
       {
-        url: 'https://raamatuklikk.ee/og-image.png',
+        url: 'https://raamatuklikk.ee/Raamatuklikk_logo.png',
         width: 1200,
         height: 630,
         alt: 'Raamatuklikk logo',
