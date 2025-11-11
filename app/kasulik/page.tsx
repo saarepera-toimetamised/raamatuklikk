@@ -99,7 +99,7 @@ export default function KasulikPage() {
             </h3>
             <ol style={{ fontSize: '13px', lineHeight: 1.8, paddingLeft: '20px' }}>
               <li>Mine aadressile: <a href="https://www.perplexity.ai/comet" target="_blank" style={{ textDecoration: 'underline' }}>https://www.perplexity.ai/comet</a></li>
-              <li>Vali oma operatsioonisüsteem (Mac / Windows / Linux)</li>
+
               <li>Lae alla ja paigalda nagu iga teine programm</li>
               <li>Käivita Comet ja OLE INTERAKTIIVNE!</li>
             </ol>
