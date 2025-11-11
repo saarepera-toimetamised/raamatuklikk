@@ -17,3 +17,21 @@ body {
 body {
   padding-bottom: 80px;
 }
+/* RAAMATUKLIKK.EE PEALKIRJA PARANDUS */
+@media (max-width: 767px) {
+    
+    /* 1. PEALKIRI: Sätted, mis sunnivad pealkirja kaadrisse */
+    .raamatuklikk-header {
+        font-size: 40px !important; 
+        word-break: break-word; 
+        padding-right: 2px !important; 
+        padding-left: 2px !important;
+    }
+    
+    /* 2. LOGO: Uus, VÄGA VÄIKE suurus mobiilile */
+    .raamatuklikk-logo {
+        width: 24px !important;  
+        height: 24px !important; 
+        margin-right: 5px !important; 
+    }
+}

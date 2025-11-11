@@ -43,6 +43,11 @@ export default function RootLayout({
         
       >
         {children}
+                <script 
+          data-goatcounter="https://raamatuklikk.goatcounter.com/count"
+          async 
+          src="//gc.zgo.at/count.js"
+        ></script>
       </body>
     </html>
   );

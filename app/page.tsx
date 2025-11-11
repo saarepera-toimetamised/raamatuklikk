@@ -37,14 +37,14 @@ export default function Home() {
                 src="/Raamatuklikk_logo.png" 
                 alt="R" 
                 style={{ 
-                  width: '100%', 
-                  height: '100%', 
+                  width: '75%', 
+                  height: '75%', 
                   objectFit: 'contain' 
                 }} 
               />
             </div>
             <h1 style={{
-              fontSize: '52px',
+              fontSize: '40px',
               fontWeight: 700,
               letterSpacing: '0.05em'
             }}>
