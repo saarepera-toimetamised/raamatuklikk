@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Raamatuklikk - Valitud raamatupoed üle maailma',
-    description: 'Leia parimad raamatupoed iga riigi ja keele kirjanduse jaoks.',
+    description: 'Leia parimad raamatupoed paljudes riikides ja keeltes.',
   },
 };
 
