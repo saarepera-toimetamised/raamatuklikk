@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Raamatuklikk - Valitud raamatupoed üle maailma',
-    description: 'Leia parimad raamatupoed iga riigi ja keele kirjanduse jaoks. 105+ poodi üle maailma.',
+    description: 'Leia parimad raamatupoed paljudes riikides ja keeltes. 100+ poodi üle maailma.',
     url: 'https://raamatuklikk.ee',
     siteName: 'Raamatuklikk',
     locale: 'et_EE',
