@@ -84,7 +84,7 @@ export default function KasulikPage() {
               otse eesti keeles, lasta teha sisututvustusi, võrrelda hindu erinevates poodides, saada infot autorite kohta, avastada uusi...jne, jne...
             </p>
             <p style={{ fontSize: '13px', lineHeight: 1.6 }}>
-              Comet on tasuta ja töötab Mac, Windows ja Linux süsteemides.
+              Comet on tasuta ja räägib sinuga emakeeles.
             </p>
           </div>
 
