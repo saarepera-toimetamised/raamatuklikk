@@ -48,6 +48,11 @@ export default function RootLayout({
           async 
           src="//gc.zgo.at/count.js"
         ></script>
+        <script 
+          defer 
+          src='https://static.cloudflareinsights.com/beacon.min.js' 
+          data-cf-beacon='{"token": "b4c34bb74e6041efb1bca27fefa01735"}'
+        ></script>
       </body>
     </html>
   );
