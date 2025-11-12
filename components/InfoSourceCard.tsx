@@ -38,7 +38,7 @@ export default function InfoSourceCard({ source }: { source: InfoSource }) {
         marginBottom: '10px'
       }}>
         <div>
-          <div style={{ fontSize: '16px', fontWeight: 700, marginBottom: '4px' }}>
+          <div style={{ fontSize: '20px', fontWeight: 700, marginBottom: '4px', letterSpacing: '-0.02em' }}>
             {source.name}
           </div>
           <div style={{ fontSize: '11px', marginBottom: '8px' }}>

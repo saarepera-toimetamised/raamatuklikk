@@ -10,7 +10,7 @@
     "language": "eesti",
     "languageCode": "et",
     "needsTranslation": false,
-    "description": "Eesti suurim ketiraamatupood. 13 kauplust üle Eesti. E-raamatud ja audioraamatud.",
+    "description": "Suur ketiraamatupood. E-raamatud ja audioraamatud. Paljudes keeltes.",
     "category": "small-languages",
     "tags": ["KETI", "Eesti", "E-raamatud"],
     "founded": 1998,
@@ -26,7 +26,7 @@
     "language": "eesti",
     "languageCode": "et",
     "needsTranslation": false,
-    "description": "Laialdane valik. E-raamatud ja audioraamatud. Tallinn, Tartu, Pärnu.",
+    "description": "Väga suur valik. E-raamatud ja audioraamatud. Poed üle Eesti.",
     "category": "small-languages",
     "tags": ["KETI", "Eesti", "E-raamatud"],
     "type": "chain"
@@ -41,7 +41,7 @@
     "language": "eesti",
     "languageCode": "et",
     "needsTranslation": false,
-    "description": "Tallinn, Tartu. Kvaliteetne valik. Usundikirjandus.",
+    "description": "Tallinn, Tartu. Kvaliteetne valik.",
     "category": "small-languages",
     "tags": ["KETI", "Eesti", "Usk"],
     "type": "chain"
@@ -136,7 +136,7 @@
     "language": "english",
     "languageCode": "en",
     "needsTranslation": true,
-    "description": "Helsinki indie. Inglise + soome raamatud.",
+    "description": "Helsinki indie.",
     "category": "small-languages",
     "tags": ["INDIE", "Soome", "Inglise"],
     "type": "independent"
@@ -1296,21 +1296,7 @@
     "tags": ["AJAKIRJAD", "Saksamaa", "Zines"],
     "type": "specialized"
   },
-  {
-    "id": "printed-matter",
-    "name": "Printed Matter",
-    "url": "https://www.printedmatter.org",
-    "country": "USA",
-    "countryCode": "US",
-    "countryFlag": "🇺🇸",
-    "language": "english",
-    "languageCode": "en",
-    "needsTranslation": true,
-    "description": "NYC. Artists' books. Non-profit.",
-    "category": "specialty",
-    "tags": ["KUNST", "USA", "Artists Books"],
-    "type": "nonprofit"
-  },
+  
   {
     "id": "tate-shop",
     "name": "Tate Shop",

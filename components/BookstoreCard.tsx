@@ -38,7 +38,7 @@ export default function BookstoreCard({ store }: { store: Bookstore }) {
         marginBottom: '10px'
       }}>
         <div>
-          <div style={{ fontSize: '16px', fontWeight: 700, marginBottom: '4px' }}>
+          <div style={{ fontSize: '20px', fontWeight: 700, marginBottom: '4px', letterSpacing: '-0.03em' }}>
             {store.name}
           </div>
           <div style={{ fontSize: '11px', marginBottom: '8px' }}>

@@ -59,7 +59,7 @@ export default function Home() {
           </div>
 
           <div style={{ fontSize: 'clamp(12px, 3vw, 13px)', lineHeight: 1.6, paddingBottom: '15px' }}>
-            Leia parimad raamatud igas riigis ja keeles. 
+            Leia vajalikud raamatud igas riigis ja keeles. 
             Fookus: kohalik kirjandus ja kultuuriline eripära. Ka väiksemates keeltes 
              → klõpsa ja ava pood → brauseri tõlge. Kui tõrgub, siis tekita. See on lihtne ja juhistes kirjas.
           </div>
