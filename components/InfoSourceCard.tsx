@@ -16,7 +16,7 @@ export default function InfoSourceCard({ source }: { source: InfoSource }) {
   return (
     <div
       style={{
-        border: '1px solid #000000',
+        border: 'var(--border-width) solid #000000',
         padding: '20px',
         background: '#FFFFFF',
         transition: 'all 0.1s',
@@ -63,7 +63,7 @@ export default function InfoSourceCard({ source }: { source: InfoSource }) {
         <button
           onClick={() => window.open(source.url, '_blank')}
           style={{
-            border: '1px solid #000000',
+            border: 'var(--border-width) solid #000000',
             background: '#FFFFFF',
             padding: '8px',
             fontFamily: 'Space Mono, monospace',
@@ -92,7 +92,7 @@ export default function InfoSourceCard({ source }: { source: InfoSource }) {
               window.open(translateUrl, '_blank');
             }}
             style={{
-              border: '1px solid #000000',
+              border: 'var(--border-width) solid #000000',
               background: '#000000',
               color: '#FFFFFF',
               padding: '8px',

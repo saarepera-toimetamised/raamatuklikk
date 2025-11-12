@@ -49,7 +49,7 @@ export default function CategoryButtons({ activeCategory, onCategoryChange, book
             style={{
               background: activeCategory === cat.id ? '#000000' : '#FFFFFF',
               color: activeCategory === cat.id ? '#FFFFFF' : '#000000',
-              border: '1px solid #000000',
+              border: '2px solid #000000',
               padding: '12px 16px',
               fontFamily: 'Space Mono, monospace',
               fontSize: '13px',

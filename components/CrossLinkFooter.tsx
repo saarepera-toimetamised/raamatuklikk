@@ -15,7 +15,7 @@ export default function CrossLinkFooter() {
           alignItems: 'center',
           gap: '8px',
           background: '#FFFFFF',
-          border: '2px solid #000000',
+          border: 'var(--border-width) solid #000000',
           padding: '10px 16px',
           textDecoration: 'none',
           color: '#000000',

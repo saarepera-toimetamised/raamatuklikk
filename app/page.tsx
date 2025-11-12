@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <div>
       <header style={{
-        borderBottom: '2px solid #000000',
+        borderBottom: 'var(--border-width) solid #000000',
         padding: '30px 20px 20px'
       }}>
         <div style={{ maxWidth: '1320px', margin: '0 auto' }}>
@@ -68,7 +68,7 @@ export default function Home() {
             gap: '15px', 
             fontSize: '13px', 
             paddingBottom: '15px',
-            borderTop: '1px solid #000000',
+            borderTop: 'var(--border-thin) solid #000000',
             paddingTop: '15px'
           }}>
             <Link href="/info" style={{ 

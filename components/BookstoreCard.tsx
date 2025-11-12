@@ -16,7 +16,7 @@ export default function BookstoreCard({ store }: { store: Bookstore }) {
   return (
     <div
       style={{
-        border: '1px solid #000000',
+        border: 'var(--border-width) solid #000000',
         padding: '20px',
         background: '#FFFFFF',
         transition: 'all 0.1s',
@@ -65,7 +65,7 @@ export default function BookstoreCard({ store }: { store: Bookstore }) {
           <span
             key={tag}
             style={{
-              border: '1px solid #000000',
+              border: 'var(--border-thin) solid #000000',
               padding: '2px 8px',
               fontSize: '10px',
               textTransform: 'uppercase'
@@ -84,7 +84,7 @@ export default function BookstoreCard({ store }: { store: Bookstore }) {
         <button
           onClick={() => window.open(store.url, '_blank')}
           style={{
-            border: '1px solid #000000',
+            border: 'var(--border-width) solid #000000',
             background: '#FFFFFF',
             padding: '8px',
             fontFamily: 'Space Mono, monospace',
@@ -114,7 +114,7 @@ export default function BookstoreCard({ store }: { store: Bookstore }) {
               window.open(translateUrl, '_blank');
             }}
             style={{
-              border: '1px solid #000000',
+              border: 'var(--border-width) solid #000000',
               background: '#000000',
               color: '#FFFFFF',
               padding: '8px',
