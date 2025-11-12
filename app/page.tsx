@@ -23,10 +23,11 @@ export default function Home() {
         padding: '30px 20px 20px'
       }}>
         <div style={{ maxWidth: '1320px', margin: '0 auto' }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '15px', marginBottom: '15px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '15px' }}>
             <div style={{
               width: '50px',
               height: '50px',
+              minWidth: '45px',
               backgroundColor: '#000000',
               display: 'flex',
               alignItems: 'center',
@@ -37,26 +38,27 @@ export default function Home() {
                 src="/Raamatuklikk_logo.png" 
                 alt="R" 
                 style={{ 
-                  width: '75%', 
-                  height: '75%', 
+                  width: '100%', 
+                  height: '100%', 
                   objectFit: 'contain' 
                 }} 
               />
             </div>
             <h1 style={{
-              fontSize: '40px',
+              fontSize: 'clamp(38px, 6vw, 50px)',
               fontWeight: 700,
-              letterSpacing: '0.05em'
+              letterSpacing: '0.05em',
+              fontFamily: 'Space Mono, monospace'
             }}>
               RAAMATUKLIKK
             </h1>
           </div>
 
-          <div style={{ fontSize: '17px', marginBottom: '12px', fontWeight: 700 }}>
+          <div style={{ fontSize: 'clamp(15px, 3.5vw, 18px)', marginBottom: '12px', }}>
             Valitud raamatupoed üle maailma
           </div>
 
-          <div style={{ fontSize: '13px', lineHeight: 1.6, paddingBottom: '15px' }}>
+          <div style={{ fontSize: 'clamp(12px, 3vw, 13px)', lineHeight: 1.6, paddingBottom: '15px' }}>
             Leia parimad raamatud igas riigis ja keeles. 
             Fookus: kohalik kirjandus ja kultuuriline eripära. Ka väiksemates keeltes 
              → klõpsa ja ava pood → brauseri tõlge. Kui tõrgub, siis tekita. See on lihtne ja juhistes kirjas.
