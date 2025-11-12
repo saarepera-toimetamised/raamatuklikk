@@ -9,7 +9,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width: 100%;
 }
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+  overscroll-behavior-x: none;
+}
+
 
 body {
   font-family: 'Space Mono', 'Courier New', monospace;

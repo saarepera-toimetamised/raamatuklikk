@@ -89,6 +89,58 @@ export default function Home() {
         </div>
       </header>
 
+      {/* 1. Nool ÜLESPOOLE (Viib lehe algusesse) */}
+      <a 
+        href="#"
+        style={{
+          position: 'fixed', 
+          top: '100px',
+          right: '15px', 
+          zIndex: 9999, 
+          backgroundColor: 'black', 
+          color: 'white', 
+          width: '30px', 
+          height: '30px', 
+          lineHeight: '30px', 
+          textAlign: 'center', 
+          borderRadius: '4px', 
+          fontSize: '20px', 
+          textDecoration: 'none', 
+          boxShadow: '0 2px 5px rgba(0, 0, 0, 0.2)',
+          display: 'block' 
+        }}
+      >
+        ↑
+      </a>
+
+      {/* 2. Nool ALLAPOOLE (Viib lehe lõppu) */}
+      <a 
+        href="#"
+        onClick={(e) => {
+          e.preventDefault();
+          window.scrollTo({ top: document.documentElement.scrollHeight, behavior: 'smooth' });
+        }}
+        style={{
+          position: 'fixed', 
+          top: '150px',
+          right: '15px', 
+          zIndex: 9999, 
+          backgroundColor: 'black', 
+          color: 'white', 
+          width: '30px', 
+          height: '30px', 
+          lineHeight: '30px', 
+          textAlign: 'center', 
+          borderRadius: '4px', 
+          fontSize: '20px', 
+          textDecoration: 'none', 
+          boxShadow: '0 2px 5px rgba(0, 0, 0, 0.2)',
+          display: 'block' 
+        }}
+      >
+        ↓
+      </a>
+
             <main style={{ maxWidth: '1320px', margin: '0 auto', padding: '30px 20px' }}>
         <CategoryButtons 
           activeCategory={activeCategory}
@@ -102,7 +154,7 @@ export default function Home() {
         
         <div style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fill, minmax(380px, 1fr))',
+          gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
           gap: '20px',
           marginBottom: '40px'
         }}>
