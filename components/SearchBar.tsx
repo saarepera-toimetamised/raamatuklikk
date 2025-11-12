@@ -49,11 +49,11 @@ export default function SearchBar() {
           <button
             type="submit"
             style={{
-              padding: '8px 16px',
+              padding: '8px 20px',
               backgroundColor: '#000000',
               color: '#00ff00',
               border: '2px solid #00ff00',
-              fontWeight: 'bold',
+              fontWeight: 'thin',
               cursor: 'pointer',
               fontFamily: 'Space Mono, monospace',
               fontSize: 'clamp(11px, 3vw, 16px)',
@@ -71,7 +71,7 @@ export default function SearchBar() {
               e.currentTarget.style.color = '#00ff00';
             }}
           >
-            [LEIA]
+            [MAAILM]
           </button>
         </form>
       </div>

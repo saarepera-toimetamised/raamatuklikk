@@ -92,6 +92,10 @@ export default function Home() {
       {/* 1. Nool ÜLESPOOLE (Viib lehe algusesse) */}
       <a 
         href="#"
+        onClick={(e) => {
+          e.preventDefault();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }}
         style={{
           position: 'fixed', 
           top: '100px',
