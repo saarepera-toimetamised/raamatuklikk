@@ -26,7 +26,10 @@ body {
   color: #000000;
   line-height: 1.5;
 }
-
+input::placeholder {
+  color: #00ff00 !important;
+  opacity: 0.6;
+}
 /* Pane terminal search bar jaoks padding body-le */
 body {
   padding-bottom: 80px;
@@ -41,6 +44,7 @@ body {
         padding-right: 2px !important; 
         padding-left: 2px !important;
     }
+    
     
     /* 2. LOGO: Uus, VÄGA VÄIKE suurus mobiilile */
     .raamatuklikk-logo {
