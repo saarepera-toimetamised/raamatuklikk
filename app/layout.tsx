@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
   title: 'Raamatuklikk - Valitud raamatupoed üle maailma',
@@ -44,6 +44,7 @@ export default function RootLayout({
         
       >
         {children}
+        <Analytics />      {import { Analytics } from '@vercel/analytics/react'};
                 <script 
           data-goatcounter="https://raamatuklikk.goatcounter.com/count"
           async 
