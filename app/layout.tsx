@@ -44,7 +44,7 @@ export default function RootLayout({
         
       >
         {children}
-        <Analytics />      {import { Analytics } from '@vercel/analytics/react'};
+        <Analytics /> 
                 <script 
           data-goatcounter="https://raamatuklikk.goatcounter.com/count"
           async 
